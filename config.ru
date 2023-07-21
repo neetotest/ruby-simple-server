@@ -3,7 +3,7 @@ require 'hanami/api'
 
 class App < Hanami::API
   get '/' do
-    'Hello, world'
+    'Hello, sreeram'
   end
 end
 
