@@ -6,5 +6,5 @@ class App < Hanami::API
     'Hello, World'
   end
 end
-
+puts "test"
 run App.new
