@@ -1,0 +1,12 @@
+{
+  "name": "ruby-simple-server",
+  "scripts": {},
+  "stack": "heroku-22",
+  "env": {},
+  "addons": [],
+  "buildpacks": [
+    {
+      "url": "heroku/ruby"
+    }
+  ]
+}
