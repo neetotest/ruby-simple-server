@@ -1,0 +1,25 @@
+{
+  "name": "ruby-simple-server",
+  "scripts": {},
+  "stack": "heroku-22",
+  "env": {},
+  "addons": [
+    {
+      "plan": "neetodeploy-postgresql:basic",
+      "options": {
+        "version": "13"
+      }
+    },    
+    {
+      "plan": "neetodeploy-postgresql:basic",
+      "options": {
+        "version": "13"
+      }
+    },
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/ruby"
+    }
+  ]
+}
